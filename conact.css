@@ -1,0 +1,120 @@
+
+
+form{
+   width: 500px;
+background-color: rgb(79, 120, 148,0.5);
+    border-radius: 10px;
+    font-weight: 600;
+    height: 590px;
+    margin-top: 30px;
+    margin-left: 150px;
+    position: absolute;
+    top: 170px
+
+}
+
+form h1{
+   font-size: 25px;
+   margin-left: 20px;
+   color: rgb(52, 91, 117);
+
+}
+
+form input , label,textarea{
+   margin-left: 20px;
+}
+
+form textarea{
+   margin-bottom: 20px;
+   background-color: rgb(202, 213, 219);
+   width: 440px;
+} 
+
+form input{
+   width: 300px;
+   position:absolute;
+   right:40px;
+   border-radius: 7px;
+   background-color: rgb(202, 213, 219);
+   border: 1px gray solid;
+}
+
+input[type="date"]{
+   width: 155px;
+   background-color: rgb(202, 213, 219);
+   right: 140px;
+}
+
+select{
+   left: 205px;
+   position: absolute;
+   background-color: rgb(202, 213, 219);
+
+}
+
+input[type="submit"]{
+   right: 95px;
+   border-radius: 10px;
+   height: 40px;
+   font-weight: 600;
+}
+
+input[type="submit"]:hover{
+   background-color: rgb(79, 120, 148);
+
+   color:rgb(202, 213, 219) ;
+}
+
+#formCon{
+   background-image: url(https://images.unsplash.com/photo-1529257414772-1960b7bea4eb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 1000px;
+}
+
+footer{
+   margin-top: 0;
+}
+
+
+#divCon{
+   position:absolute;
+   right: 120px;
+   top: 230px;
+   overflow-y: scroll ;
+   height: 500px;
+   
+}
+
+#divCon::-webkit-scrollbar {
+   display: none;
+}
+
+.subDiv{
+   width: 400px;
+   height: 150px;
+   background-color: rgb(255,255,255,0.5);
+   margin-top: 10px;
+   border-radius: 10px;
+   font-size: 20px;
+   font-weight: 500;
+   color: rgb(38, 69, 90);
+
+}
+
+.subDiv span{
+margin-left: 5px;
+margin-top: 20px;
+
+}
+
+.subDiv i{
+   float: left;
+   margin-left: 20px;
+}
+
+.subDiv span h4{
+margin-left: 30px;
+}
+
+
