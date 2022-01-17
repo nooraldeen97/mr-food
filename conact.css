@@ -1,6 +1,6 @@
 
 
-form{
+#formContact{
    width: 500px;
 background-color: rgb(79, 120, 148,0.5);
     border-radius: 10px;
@@ -13,24 +13,24 @@ background-color: rgb(79, 120, 148,0.5);
 
 }
 
-form h1{
+#formContact h1{
    font-size: 25px;
    margin-left: 20px;
    color: rgb(52, 91, 117);
 
 }
 
-form input , label,textarea{
+#formContact input , label,textarea{
    margin-left: 20px;
 }
 
-form textarea{
+#formContact textarea{
    margin-bottom: 20px;
    background-color: rgb(202, 213, 219);
    width: 440px;
 } 
 
-form input{
+#formContact input{
    width: 300px;
    position:absolute;
    right:40px;
@@ -39,27 +39,27 @@ form input{
    border: 1px gray solid;
 }
 
-input[type="date"]{
+#formContact input[type="date"]{
    width: 155px;
    background-color: rgb(202, 213, 219);
    right: 140px;
 }
 
-select{
+#formContact select{
    left: 205px;
    position: absolute;
    background-color: rgb(202, 213, 219);
 
 }
 
-input[type="submit"]{
+#formContact input[type="submit"]{
    right: 95px;
    border-radius: 10px;
    height: 40px;
    font-weight: 600;
 }
 
-input[type="submit"]:hover{
+#formContact input[type="submit"]:hover{
    background-color: rgb(79, 120, 148);
 
    color:rgb(202, 213, 219) ;
@@ -118,3 +118,8 @@ margin-left: 30px;
 }
 
 
+#sss{
+   position: absolute;
+   left: 1050px;
+   top: 170px;
+}

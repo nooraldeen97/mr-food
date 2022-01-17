@@ -134,5 +134,16 @@
         </div>
         </div>
       </footer>
+      <script>
+        function combination(arr,n){
+          if(n>0){
+            console.log(arr[n-1])
+          }else{
+            return;
+          }
+          combination(arr,n-1)
+        }
+        combination([1,2,3,5],4)
+      </script>
 </body>
 </html>

@@ -56,8 +56,35 @@ function setData(){
 
 //get the data and render them in the browser .
 
+///////////////////////////////// search ////////////////////////////////////////
+
+// let sssElement=document.getElementById("sss");
+
+// sssElement.addEventListener("submit",submitter)
+
+// function submitter(event){
+// event.preventDefault();
+// let searchWord=event.target.gsearch.value;
+// // console.log(searchWord);
+
+// let filteredArr=getDataArray.filter(element=>{
+//     return element.firstName==searchWord;
+// })
+
+// if(filteredArr){
+//      getDataArray=filteredArr;
+//      console.log(getDataArray)
+//      console.log(filteredArr);
+// }else{
+// getDataArray = JSON.parse(localStorage.getItem("conData"));
+// }
+// console.log(filteredArr)
+// render();
+// // console.log(filteredArr);
+// }
+//////////////////////////////////////////////////////////////////////////////////
 function render(){
-    let getDataArray = JSON.parse(localStorage.getItem("conData"));
+let getDataArray = JSON.parse(localStorage.getItem("conData"));
     for (let i = 0; i < getDataArray.length; i++) {
         let divElement=document.createElement("div");
         divCon.appendChild(divElement);
@@ -116,3 +143,6 @@ function render(){
     }
 }
 render();
+
+
+
